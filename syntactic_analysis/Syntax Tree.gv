@@ -1,0 +1,711 @@
+digraph "Syntax Tree" {
+	236 [label=program]
+	235 [label=function]
+	236 -> 235
+	235 [label=function]
+	62 [label=func_head]
+	235 -> 62
+	62 [label=func_head]
+	61 [label=type]
+	62 -> 61
+	61 [label=type]
+	0 [label=int]
+	61 -> 0
+	0 [label=int]
+	1 [label=main]
+	62 -> 1
+	1 [label=main]
+	2 [label="("]
+	62 -> 2
+	2 [label="("]
+	3 [label=")"]
+	62 -> 3
+	3 [label=")"]
+	234 [label=func_body]
+	235 -> 234
+	234 [label=func_body]
+	4 [label="{"]
+	234 -> 4
+	4 [label="{"]
+	233 [label=statement_group]
+	234 -> 233
+	233 [label=statement_group]
+	77 [label=statement]
+	233 -> 77
+	77 [label=statement]
+	76 [label=sent]
+	77 -> 76
+	76 [label=sent]
+	75 [label=assignment_sent]
+	76 -> 75
+	75 [label=assignment_sent]
+	74 [label=expr]
+	75 -> 74
+	74 [label=expr]
+	67 [label=expr1]
+	74 -> 67
+	67 [label=expr1]
+	66 [label=expr2]
+	67 -> 66
+	66 [label=expr2]
+	65 [label=expr3]
+	66 -> 65
+	65 [label=expr3]
+	64 [label=expr4]
+	65 -> 64
+	64 [label=expr4]
+	63 [label=expr5]
+	64 -> 63
+	63 [label=expr5]
+	5 [label=m]
+	63 -> 5
+	5 [label=m]
+	6 [label="="]
+	74 -> 6
+	6 [label="="]
+	73 [label=expr]
+	74 -> 73
+	73 [label=expr]
+	72 [label=expr1]
+	73 -> 72
+	72 [label=expr1]
+	71 [label=expr2]
+	72 -> 71
+	71 [label=expr2]
+	70 [label=expr3]
+	71 -> 70
+	70 [label=expr3]
+	69 [label=expr4]
+	70 -> 69
+	69 [label=expr4]
+	68 [label=expr5]
+	69 -> 68
+	68 [label=expr5]
+	7 [label=4]
+	68 -> 7
+	7 [label=4]
+	8 [label=";"]
+	77 -> 8
+	8 [label=";"]
+	232 [label=statement_group]
+	233 -> 232
+	232 [label=statement_group]
+	93 [label=statement]
+	232 -> 93
+	93 [label=statement]
+	92 [label=sent]
+	93 -> 92
+	92 [label=sent]
+	91 [label=declaration_sent]
+	92 -> 91
+	91 [label=declaration_sent]
+	78 [label=type]
+	91 -> 78
+	78 [label=type]
+	9 [label=int]
+	78 -> 9
+	9 [label=int]
+	90 [label=expr]
+	91 -> 90
+	90 [label=expr]
+	83 [label=expr1]
+	90 -> 83
+	83 [label=expr1]
+	82 [label=expr2]
+	83 -> 82
+	82 [label=expr2]
+	81 [label=expr3]
+	82 -> 81
+	81 [label=expr3]
+	80 [label=expr4]
+	81 -> 80
+	80 [label=expr4]
+	79 [label=expr5]
+	80 -> 79
+	79 [label=expr5]
+	10 [label=a]
+	79 -> 10
+	10 [label=a]
+	11 [label="="]
+	90 -> 11
+	11 [label="="]
+	89 [label=expr]
+	90 -> 89
+	89 [label=expr]
+	88 [label=expr1]
+	89 -> 88
+	88 [label=expr1]
+	87 [label=expr2]
+	88 -> 87
+	87 [label=expr2]
+	86 [label=expr3]
+	87 -> 86
+	86 [label=expr3]
+	85 [label=expr4]
+	86 -> 85
+	85 [label=expr4]
+	84 [label=expr5]
+	85 -> 84
+	84 [label=expr5]
+	12 [label=0]
+	84 -> 12
+	12 [label=0]
+	13 [label=";"]
+	93 -> 13
+	13 [label=";"]
+	231 [label=statement_group]
+	232 -> 231
+	231 [label=statement_group]
+	109 [label=statement]
+	231 -> 109
+	109 [label=statement]
+	108 [label=sent]
+	109 -> 108
+	108 [label=sent]
+	107 [label=declaration_sent]
+	108 -> 107
+	107 [label=declaration_sent]
+	94 [label=type]
+	107 -> 94
+	94 [label=type]
+	14 [label=int]
+	94 -> 14
+	14 [label=int]
+	106 [label=expr]
+	107 -> 106
+	106 [label=expr]
+	99 [label=expr1]
+	106 -> 99
+	99 [label=expr1]
+	98 [label=expr2]
+	99 -> 98
+	98 [label=expr2]
+	97 [label=expr3]
+	98 -> 97
+	97 [label=expr3]
+	96 [label=expr4]
+	97 -> 96
+	96 [label=expr4]
+	95 [label=expr5]
+	96 -> 95
+	95 [label=expr5]
+	15 [label=n]
+	95 -> 15
+	15 [label=n]
+	16 [label="="]
+	106 -> 16
+	16 [label="="]
+	105 [label=expr]
+	106 -> 105
+	105 [label=expr]
+	104 [label=expr1]
+	105 -> 104
+	104 [label=expr1]
+	103 [label=expr2]
+	104 -> 103
+	103 [label=expr2]
+	102 [label=expr3]
+	103 -> 102
+	102 [label=expr3]
+	101 [label=expr4]
+	102 -> 101
+	101 [label=expr4]
+	100 [label=expr5]
+	101 -> 100
+	100 [label=expr5]
+	17 [label=10]
+	100 -> 17
+	17 [label=10]
+	18 [label=";"]
+	109 -> 18
+	18 [label=";"]
+	230 [label=statement_group]
+	231 -> 230
+	230 [label=statement_group]
+	125 [label=statement]
+	230 -> 125
+	125 [label=statement]
+	124 [label=sent]
+	125 -> 124
+	124 [label=sent]
+	123 [label=declaration_sent]
+	124 -> 123
+	123 [label=declaration_sent]
+	110 [label=type]
+	123 -> 110
+	110 [label=type]
+	19 [label=char]
+	110 -> 19
+	19 [label=char]
+	122 [label=expr]
+	123 -> 122
+	122 [label=expr]
+	115 [label=expr1]
+	122 -> 115
+	115 [label=expr1]
+	114 [label=expr2]
+	115 -> 114
+	114 [label=expr2]
+	113 [label=expr3]
+	114 -> 113
+	113 [label=expr3]
+	112 [label=expr4]
+	113 -> 112
+	112 [label=expr4]
+	111 [label=expr5]
+	112 -> 111
+	111 [label=expr5]
+	20 [label=c]
+	111 -> 20
+	20 [label=c]
+	21 [label="="]
+	122 -> 21
+	21 [label="="]
+	121 [label=expr]
+	122 -> 121
+	121 [label=expr]
+	120 [label=expr1]
+	121 -> 120
+	120 [label=expr1]
+	119 [label=expr2]
+	120 -> 119
+	119 [label=expr2]
+	118 [label=expr3]
+	119 -> 118
+	118 [label=expr3]
+	117 [label=expr4]
+	118 -> 117
+	117 [label=expr4]
+	116 [label=expr5]
+	117 -> 116
+	116 [label=expr5]
+	22 [label="'\n'"]
+	116 -> 22
+	22 [label="'\n'"]
+	23 [label=";"]
+	125 -> 23
+	23 [label=";"]
+	229 [label=statement_group]
+	230 -> 229
+	229 [label=statement_group]
+	147 [label=statement]
+	229 -> 147
+	147 [label=statement]
+	146 [label=sent]
+	147 -> 146
+	146 [label=sent]
+	145 [label=declaration_sent]
+	146 -> 145
+	145 [label=declaration_sent]
+	126 [label=type]
+	145 -> 126
+	126 [label=type]
+	24 [label=char]
+	126 -> 24
+	24 [label=char]
+	144 [label=expr]
+	145 -> 144
+	144 [label=expr]
+	137 [label=expr1]
+	144 -> 137
+	137 [label=expr1]
+	136 [label=expr2]
+	137 -> 136
+	136 [label=expr2]
+	135 [label=expr3]
+	136 -> 135
+	135 [label=expr3]
+	134 [label=expr4]
+	135 -> 134
+	134 [label=expr4]
+	133 [label=expr5]
+	134 -> 133
+	133 [label=expr5]
+	25 [label=s]
+	133 -> 25
+	25 [label=s]
+	26 [label="["]
+	133 -> 26
+	26 [label="["]
+	132 [label=expr]
+	133 -> 132
+	132 [label=expr]
+	131 [label=expr1]
+	132 -> 131
+	131 [label=expr1]
+	130 [label=expr2]
+	131 -> 130
+	130 [label=expr2]
+	129 [label=expr3]
+	130 -> 129
+	129 [label=expr3]
+	128 [label=expr4]
+	129 -> 128
+	128 [label=expr4]
+	127 [label=expr5]
+	128 -> 127
+	127 [label=expr5]
+	27 [label=8]
+	127 -> 27
+	27 [label=8]
+	28 [label="]"]
+	133 -> 28
+	28 [label="]"]
+	29 [label="="]
+	144 -> 29
+	29 [label="="]
+	143 [label=expr]
+	144 -> 143
+	143 [label=expr]
+	142 [label=expr1]
+	143 -> 142
+	142 [label=expr1]
+	141 [label=expr2]
+	142 -> 141
+	141 [label=expr2]
+	140 [label=expr3]
+	141 -> 140
+	140 [label=expr3]
+	139 [label=expr4]
+	140 -> 139
+	139 [label=expr4]
+	138 [label=expr5]
+	139 -> 138
+	138 [label=expr5]
+	30 [label="\"hahaha\n\""]
+	138 -> 30
+	30 [label="\"hahaha\n\""]
+	31 [label=";"]
+	147 -> 31
+	31 [label=";"]
+	228 [label=statement_group]
+	229 -> 228
+	228 [label=statement_group]
+	200 [label=statement]
+	228 -> 200
+	200 [label=statement]
+	199 [label=for_sent]
+	200 -> 199
+	199 [label=for_sent]
+	32 [label=for]
+	199 -> 32
+	32 [label=for]
+	33 [label="("]
+	199 -> 33
+	33 [label="("]
+	163 [label=statement]
+	199 -> 163
+	163 [label=statement]
+	162 [label=sent]
+	163 -> 162
+	162 [label=sent]
+	161 [label=declaration_sent]
+	162 -> 161
+	161 [label=declaration_sent]
+	148 [label=type]
+	161 -> 148
+	148 [label=type]
+	34 [label=int]
+	148 -> 34
+	34 [label=int]
+	160 [label=expr]
+	161 -> 160
+	160 [label=expr]
+	153 [label=expr1]
+	160 -> 153
+	153 [label=expr1]
+	152 [label=expr2]
+	153 -> 152
+	152 [label=expr2]
+	151 [label=expr3]
+	152 -> 151
+	151 [label=expr3]
+	150 [label=expr4]
+	151 -> 150
+	150 [label=expr4]
+	149 [label=expr5]
+	150 -> 149
+	149 [label=expr5]
+	35 [label=i]
+	149 -> 35
+	35 [label=i]
+	36 [label="="]
+	160 -> 36
+	36 [label="="]
+	159 [label=expr]
+	160 -> 159
+	159 [label=expr]
+	158 [label=expr1]
+	159 -> 158
+	158 [label=expr1]
+	157 [label=expr2]
+	158 -> 157
+	157 [label=expr2]
+	156 [label=expr3]
+	157 -> 156
+	156 [label=expr3]
+	155 [label=expr4]
+	156 -> 155
+	155 [label=expr4]
+	154 [label=expr5]
+	155 -> 154
+	154 [label=expr5]
+	37 [label=0]
+	154 -> 37
+	37 [label=0]
+	38 [label=";"]
+	163 -> 38
+	38 [label=";"]
+	174 [label=expr]
+	199 -> 174
+	174 [label=expr]
+	173 [label=expr1]
+	174 -> 173
+	173 [label=expr1]
+	168 [label=expr1]
+	173 -> 168
+	168 [label=expr1]
+	167 [label=expr2]
+	168 -> 167
+	167 [label=expr2]
+	166 [label=expr3]
+	167 -> 166
+	166 [label=expr3]
+	165 [label=expr4]
+	166 -> 165
+	165 [label=expr4]
+	164 [label=expr5]
+	165 -> 164
+	164 [label=expr5]
+	39 [label=i]
+	164 -> 39
+	39 [label=i]
+	40 [label="<"]
+	173 -> 40
+	40 [label="<"]
+	172 [label=expr2]
+	173 -> 172
+	172 [label=expr2]
+	171 [label=expr3]
+	172 -> 171
+	171 [label=expr3]
+	170 [label=expr4]
+	171 -> 170
+	170 [label=expr4]
+	169 [label=expr5]
+	170 -> 169
+	169 [label=expr5]
+	41 [label=n]
+	169 -> 41
+	41 [label=n]
+	42 [label=";"]
+	199 -> 42
+	42 [label=";"]
+	181 [label=assignment_sent]
+	199 -> 181
+	181 [label=assignment_sent]
+	180 [label=expr]
+	181 -> 180
+	180 [label=expr]
+	179 [label=expr1]
+	180 -> 179
+	179 [label=expr1]
+	178 [label=expr2]
+	179 -> 178
+	178 [label=expr2]
+	177 [label=expr3]
+	178 -> 177
+	177 [label=expr3]
+	176 [label=expr4]
+	177 -> 176
+	176 [label=expr4]
+	175 [label=expr5]
+	176 -> 175
+	175 [label=expr5]
+	43 [label=i]
+	175 -> 43
+	43 [label=i]
+	44 [label="++"]
+	176 -> 44
+	44 [label="++"]
+	45 [label=")"]
+	199 -> 45
+	45 [label=")"]
+	198 [label=statement_group2]
+	199 -> 198
+	198 [label=statement_group2]
+	46 [label="{"]
+	198 -> 46
+	46 [label="{"]
+	197 [label=statement_group]
+	198 -> 197
+	197 [label=statement_group]
+	196 [label=statement]
+	197 -> 196
+	196 [label=statement]
+	195 [label=sent]
+	196 -> 195
+	195 [label=sent]
+	194 [label=assignment_sent]
+	195 -> 194
+	194 [label=assignment_sent]
+	193 [label=expr]
+	194 -> 193
+	193 [label=expr]
+	186 [label=expr1]
+	193 -> 186
+	186 [label=expr1]
+	185 [label=expr2]
+	186 -> 185
+	185 [label=expr2]
+	184 [label=expr3]
+	185 -> 184
+	184 [label=expr3]
+	183 [label=expr4]
+	184 -> 183
+	183 [label=expr4]
+	182 [label=expr5]
+	183 -> 182
+	182 [label=expr5]
+	47 [label=a]
+	182 -> 47
+	47 [label=a]
+	48 [label="+="]
+	193 -> 48
+	48 [label="+="]
+	192 [label=expr]
+	193 -> 192
+	192 [label=expr]
+	191 [label=expr1]
+	192 -> 191
+	191 [label=expr1]
+	190 [label=expr2]
+	191 -> 190
+	190 [label=expr2]
+	189 [label=expr3]
+	190 -> 189
+	189 [label=expr3]
+	188 [label=expr4]
+	189 -> 188
+	188 [label=expr4]
+	187 [label=expr5]
+	188 -> 187
+	187 [label=expr5]
+	49 [label=i]
+	187 -> 49
+	49 [label=i]
+	50 [label=";"]
+	196 -> 50
+	50 [label=";"]
+	51 [label="}"]
+	198 -> 51
+	51 [label="}"]
+	227 [label=statement_group]
+	228 -> 227
+	227 [label=statement_group]
+	216 [label=statement]
+	227 -> 216
+	216 [label=statement]
+	215 [label=sent]
+	216 -> 215
+	215 [label=sent]
+	214 [label=declaration_sent]
+	215 -> 214
+	214 [label=declaration_sent]
+	201 [label=type]
+	214 -> 201
+	201 [label=type]
+	52 [label=int]
+	201 -> 52
+	52 [label=int]
+	213 [label=expr]
+	214 -> 213
+	213 [label=expr]
+	206 [label=expr1]
+	213 -> 206
+	206 [label=expr1]
+	205 [label=expr2]
+	206 -> 205
+	205 [label=expr2]
+	204 [label=expr3]
+	205 -> 204
+	204 [label=expr3]
+	203 [label=expr4]
+	204 -> 203
+	203 [label=expr4]
+	202 [label=expr5]
+	203 -> 202
+	202 [label=expr5]
+	53 [label=a]
+	202 -> 53
+	53 [label=a]
+	54 [label="="]
+	213 -> 54
+	54 [label="="]
+	212 [label=expr]
+	213 -> 212
+	212 [label=expr]
+	211 [label=expr1]
+	212 -> 211
+	211 [label=expr1]
+	210 [label=expr2]
+	211 -> 210
+	210 [label=expr2]
+	209 [label=expr3]
+	210 -> 209
+	209 [label=expr3]
+	208 [label=expr4]
+	209 -> 208
+	208 [label=expr4]
+	207 [label=expr5]
+	208 -> 207
+	207 [label=expr5]
+	55 [label=2]
+	207 -> 55
+	55 [label=2]
+	56 [label=";"]
+	216 -> 56
+	56 [label=";"]
+	226 [label=statement_group]
+	227 -> 226
+	226 [label=statement_group]
+	225 [label=statement]
+	226 -> 225
+	225 [label=statement]
+	224 [label=sent]
+	225 -> 224
+	224 [label=sent]
+	223 [label=return_sent]
+	224 -> 223
+	223 [label=return_sent]
+	57 [label=return]
+	223 -> 57
+	57 [label=return]
+	222 [label=expr]
+	223 -> 222
+	222 [label=expr]
+	221 [label=expr1]
+	222 -> 221
+	221 [label=expr1]
+	220 [label=expr2]
+	221 -> 220
+	220 [label=expr2]
+	219 [label=expr3]
+	220 -> 219
+	219 [label=expr3]
+	218 [label=expr4]
+	219 -> 218
+	218 [label=expr4]
+	217 [label=expr5]
+	218 -> 217
+	217 [label=expr5]
+	58 [label=0]
+	217 -> 58
+	58 [label=0]
+	59 [label=";"]
+	225 -> 59
+	59 [label=";"]
+	60 [label="}"]
+	234 -> 60
+	60 [label="}"]
+}

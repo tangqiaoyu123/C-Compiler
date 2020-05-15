@@ -1,0 +1,38 @@
+program function program
+program declaration_sent ; program
+program function
+program declaration_sent ;
+
+function func_head func_body
+
+func_head type id ( declaration_sent )
+func_head type id ( )
+
+type int
+type float
+type bool
+type char
+type void
+
+func_body { statement_group }
+
+statement_group statement statement_group
+statement_group statement
+
+statement_group2 { statement_group }
+statement_group2 statement
+
+statement sent ;
+statement while_sent
+statement for_sent
+
+sent declaration_sent
+sent assignment_sent
+sent return_sent
+
+declaration_sent type expr
+assignment_sent expr
+while_sent while ( expr ) statement_group2
+for_sent for ( statement expr ; assignment_sent ) statement_group2
+return_sent return expr
+return_sent return

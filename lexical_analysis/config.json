@@ -1,0 +1,12 @@
+{
+  "keyword": ["float", "int", "char", "bool", "true", "false", "for", "while", "if", "else", "struct", "return", "void", "printf"],
+  "punctuator": {
+    "arithmetical": ["+", "-", "*", "/", "++", "--", "%", "<<", ">>"],
+    "logical": ["&", "&&", "|", "||", "~", "!", "^"],
+    "relation": ["==", "!=", ">", "<", ">=", "<="],
+    "bracket": ["[", "]", "{", "}", "(", ")"],
+    "assignment": ["=", "+=", "-=", "*=", "/=", "%=", "<<=", ">>=", "&=", "|=", "^="],
+    "delimiter": [" ", "\n", "\t"],
+    "others": [".", ";", ","]
+  }
+}

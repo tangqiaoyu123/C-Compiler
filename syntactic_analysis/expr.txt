@@ -1,0 +1,75 @@
+1 0
+id
+decimal
+octal
+hex
+float_num
+character
+string
+id [ A ]
+( A )
+id ( A )
+id . id
+
+2 1
+- A
+++ A
+A ++
+-- A
+A --
+! A
+~ A
+
+3 0
+A / B
+A * B
+A % B
+
+4 0
+A + B
+A - B
+
+5 0
+A << B
+A >> B
+
+6 0
+A > B
+A >= B
+A < B
+A <= B
+
+7 0
+A == B
+A != B
+
+8 0
+A & B
+
+9 0
+A ^ B
+
+10 0
+A | B
+
+11 0
+A && B
+
+12 0
+A || B
+
+14 1
+A = B
+A /= B
+A *= B
+A %= B
+A += B
+A -= B
+A <<= B
+A >>= B
+A &= B
+A ^= B
+A |= B
+
+15 0
+A , B
